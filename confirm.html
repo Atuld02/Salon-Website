@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="confirm.css" type="text/css" />
+    <title>Book An Appointment</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+          Booking Form
+        </div>
+        <div class="form">
+           <div class="inputfield">
+              <label>First Name</label>
+              <input type="text" class="input">
+           </div>  
+            <div class="inputfield">
+              <label>Last Name</label>
+              <input type="text" class="input">
+           </div>  
+           <div class="inputfield">
+              <label>Appointment
+                 Date</label>
+              <input type="date" class="input">
+           </div>  
+          <div class="inputfield">
+              <label>Appointment
+                Time</label>
+              <input type="time" class="input">
+           </div> 
+            <div class="inputfield">
+              <label>Category</label>
+              <div class="custom_select">
+                <select>
+                  <option value="">Select</option>
+                  <option value="WH">
+                    Women's Haircut	$75-85</option>
+                  <option value="WH1">Women's Haircut w/ Single Process Color	$155-165</option>
+                  <option value="MH1">Men's Haircut		$50-55
+                </option>
+                  <option value="MH2">Men's Haircut w/ Single Process Color		$125-130
+                </option>
+
+                </select>
+              </div>
+           </div> 
+            <div class="inputfield">
+              <label>Email Address</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Phone Number</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Address</label>
+              <textarea class="textarea"></textarea>
+           </div> 
+          <div class="inputfield">
+              <label>Postal Code</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield terms">
+              <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Agreed to terms and conditions</p>
+           </div> 
+          <div class="inputfield">
+            <a href="#open-modal"> <input type="submit" value="Confirm Booking" class="btn">  </a>
+          </div>
+        </div>
+    </div>
+    <div id="open-modal" class="modal-window">
+        
+        <div class="color">
+          <a href="index.html" title="Close" class="modal-close">Close</a>
+          <h1>Congratulaions!!!</h1>
+          <div>Your booking has been confirmed✅✅</div>
+          </div>
+      </div>
+</body>
+</html>
